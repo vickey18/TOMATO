@@ -44,7 +44,7 @@ const Cart = () => {
           <h2>Cart Total</h2>
           <div>
             <div className="cart-total-details">
-              <p>Sub Total</p>
+              <p>Sub T2347890otal</p>
               <p>${getTotalCartAmount()}</p>
             </div>
             <hr />

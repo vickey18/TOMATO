@@ -15,7 +15,7 @@ const StoreContextProvider=(props)=>{
     
     const[nightMode,setNightMode]=useState(false);
 
-    const url ="http://localhost:4000"
+    const url ="https://tomato-vivek.onrender.com"
 
     const addToCart= async (itemId)=>{
         if(!cartItems[itemId]){

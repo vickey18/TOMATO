@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext';
 
 const FoodItem = ({id,name,price,description,image}) => {
-    const url ="http://localhost:4000"
+    const url ="https://tomato-vivek.onrender.com"
     const[itemCount, setItemCount]=useState(0);
     const {cartItems,addToCart,removeFromCart}=useContext(StoreContext);
     // console.log(id,name,price,description,image)

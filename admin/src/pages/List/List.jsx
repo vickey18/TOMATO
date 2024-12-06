@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 
 const List = () => {
 
-  const url="http://localhost:4000";
+  const url="https://tomato-vivek.onrender.com/";
   const [List, setList]=useState([]);
 
   const fetchList= async()=>{
